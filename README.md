@@ -15,6 +15,7 @@ https://egghead.io/courses/getting-started-with-redux
 <ol>
     <li>
         El objeto global <b>state</b>. Controla el último estado, cambio realizado en la app.
+        Es la mínima representación de los datos en la aplicación.
     </li>
     <li>
         Admite cualquier tipo de variable.
@@ -36,10 +37,36 @@ https://egghead.io/courses/getting-started-with-redux
 
 <hr/>
 <h2>
-    <a href="">
-        2. lessons
+    <a href="https://egghead.io/lessons/javascript-redux-describing-state-changes-with-actions">
+        2. lessons/javascript-redux-describing-state-changes-with-actions
     </a>
 </h2>
 <ol>
-    <li></li>
+    <li>
+        El estado es de tipo readonly. No se puede forzar una asignación o un borrado directamente por código
+        Es la mínima representación del cambio realizado sobre los datos.
+    </li>
+    <li>Para modificar el estado, se debe hacer por medio de una <b>action</b></li>
+    <li>
+        La variable acción, es una variable de tipo objeto y debe tener una propiedad
+        <b>type</b> de tipo string preferiblemente. <br/>
+        Ejemplo: {type: "INCRMENT"}
+    </li>
+    <li>
+        Nota: Si estamos en un formulario con varios botones asociariamos a cada evento de esos botones
+        con acciones.  Entonces si tenemos un botón guardar deberiamos definir una accion {type:"GUARDAR"}
+        <br/><br/>
+        Supongamos que tenemos varios objetos (notas). Si deseamos añadir un nuevo objeto dinámicamente a cada 
+        uno de ellos le asignaremos una propiedad <b>index</b> esto nos permitirá tener localizado el objeto
+        de forma atómica.
+        <br/><br/>
+        Ejemplos acciones: 
+            action: {id: 0,text:"Nota Uno",type:"ADD_NOTA"}<br/>
+            action: {filter: "SHOW_ACTIVE",type:"SET_VISIBILITY_FILTER"}<br/>
+            action: {filter: "SHOW_COMPLETED",type:"SET_VISIBILITY_FILTER"}<br/>
+    </li>
+    <li>
+        En conclusión, solo se puede tocar el estado por medio de la ejecución de acciones.
+        Estas acciones a groso modo son eventos lanzados por el usuario o por una conexión en red.
+    </li>
 </ol>
