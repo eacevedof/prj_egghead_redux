@@ -15,3 +15,13 @@ https://egghead.io/courses/getting-started-with-redux
 <ol>
     <li></li>
 </ol>
+
+<hr/>
+<h2>
+    <a href="">
+        2. lessons
+    </a>
+</h2>
+<ol>
+    <li></li>
+</ol>
