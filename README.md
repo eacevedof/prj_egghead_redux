@@ -70,3 +70,53 @@ https://egghead.io/courses/getting-started-with-redux
         Estas acciones a groso modo son eventos lanzados por el usuario o por una conexión en red.
     </li>
 </ol>
+
+<hr/>
+<h2>
+    <a href="https://egghead.io/lessons/javascript-redux-pure-and-impure-functions">
+        3. lessons/javascript-redux-pure-and-impure-functions
+    </a>
+</h2>
+<ol>
+    <li>Funciones puras: Dependen solo de los valores de los argumentos</li>
+    <li>No modifican sus argumentos</li>
+    <li>
+        Funciones impuras, hacen llamadas a bd, cambian valores de sus variables o variables globales,
+        enviar datos a la pantalla o guardar en un archivo (a esto se llama efecto secundario).
+        Estas acciones hacen que el programa sea más dificil de predecir.<br/>
+        La programación funcional (funciones puras) intenta minimizar esta caracteristica.
+    </li>
+    <li>
+        Muchas de las funciones que se tienen que escribir en Redux deben ser puras.
+    </li>
+</ol>
+
+<hr/>
+<h2>
+    <a href=" ">
+        4. 
+    </a>
+</h2>
+<ol>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>  
+</ol>
+
+<hr/>
+<h2>
+    <a href=" ">
+        5.
+    </a>
+</h2>
+<ol>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>  
+</ol>
