@@ -129,7 +129,7 @@ https://egghead.io/courses/getting-started-with-redux
             expect(2).toBeA('number')  //Se espera que 2 sea un número
         </code>
     </li>
-    <li>
+</ol>
         <code>
             <script src="https://unpkg.com/expect/umd/expect.min.js"></script>
         </code>
@@ -158,12 +158,7 @@ https://egghead.io/courses/getting-started-with-redux
 
             console.log("Tests passed!")
         </code>
-    </li>
-    <li>
-    </li>
-    <li>
-    </li>  
-</ol>
+
 <h2>
     <a href=" ">
         6.
