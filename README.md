@@ -130,9 +130,31 @@ https://egghead.io/courses/getting-started-with-redux
         </code>
     </li>
     <li>
-        <pre>
+        <code>
+            <script src="https://unpkg.com/expect/umd/expect.min.js"></script>
+            //Reducer
+            function counter(oState,oAction){
+                return oState
+            }
             
-        </pre>
+            expect(
+                counter(0,{type: "INCREMENT"}
+            ).toEqual(1)
+
+            expect(
+                counter(1,{type: "INCREMENT"}
+            ).toEqual(2)
+
+            expect(
+                counter(2,{type: "DECREMENT"}
+            ).toEqual(1)
+
+            expect(
+                counter(1,{type: "DECREMENT"}
+            ).toEqual(0)
+
+            console.log("Tests passed!")
+        </code>
     </li>
     <li>
     </li>
