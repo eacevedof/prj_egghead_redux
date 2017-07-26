@@ -133,6 +133,7 @@ https://egghead.io/courses/getting-started-with-redux
         <code>
             <script src="https://unpkg.com/expect/umd/expect.min.js"></script>
         </code>
+        <br/>
         <code>
             //Reducer
             function counter(oState,oAction){
