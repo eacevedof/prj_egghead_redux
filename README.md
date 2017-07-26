@@ -163,6 +163,44 @@ https://egghead.io/courses/getting-started-with-redux
     console.log("Tests passed!")
 ```
 
+```js
+    function counter(iState,oAction){
+        if(oAction.type === "INCREMENT")
+            return iState+1
+        else if(oAction.type==="DECREMENT")
+            return iState-1
+
+        //si oAction.type no esta contamplado
+        //por defecto devuelve el estado actual
+        return iState
+    }
+
+    expect(
+        //state,action
+        counter(0,{type: "INCREMENT"}
+    ).toEqual(1)
+
+    expect(
+        counter(1,{type: "INCREMENT"}
+    ).toEqual(2)
+
+    expect(
+        counter(2,{type: "DECREMENT"}
+    ).toEqual(1)
+
+    expect(
+        counter(1,{type: "DECREMENT"}
+    ).toEqual(0)
+
+    //accion no contemplada, nos obliga a definir un else if en counter
+    expect(
+        counter(1,{type: "SOMETHING_ELSE"}
+    ).toEqual(1)
+
+    console.log("Tests passed!")
+```
+
+<hr/>
 <h2>
     <a href=" ">
         6.
@@ -176,6 +214,8 @@ https://egghead.io/courses/getting-started-with-redux
     <li>
     </li>  
 </ol>
+
+<hr/>
 <h2>
     <a href=" ">
         7.
