@@ -125,36 +125,43 @@ https://egghead.io/courses/getting-started-with-redux
 <ol>
     <li>
         Libreria de ejemplo: https://github.com/mjackson/expect <br/><br/>
-        expect(2).toBeA('number')  //Se espera que 2 sea un número
+        <blockquote>
+            <p>
+                <code>
+                    expect(2).toBeA('number')  //Se espera que 2 sea un número
+                </code>
+            </p>
+        </blockquote>
     </li>
 </ol>
-    <pre>
-    <script src="https://unpkg.com/expect/umd/expect.min.js"></script>
 
-        //Reducer
-        function counter(oState,oAction){
-            return oState
-        }
+<pre>
+    //Expect: https://unpkg.com/expect/umd/expect.min.js"
 
-        expect(
-            //state,action
-            counter(0,{type: "INCREMENT"}
-        ).toEqual(1)
+    //Reducer
+    function counter(oState,oAction){
+        return oState
+    }
 
-        expect(
-            counter(1,{type: "INCREMENT"}
-        ).toEqual(2)
+    expect(
+        //state,action
+        counter(0,{type: "INCREMENT"}
+    ).toEqual(1)
 
-        expect(
-            counter(2,{type: "DECREMENT"}
-        ).toEqual(1)
+    expect(
+        counter(1,{type: "INCREMENT"}
+    ).toEqual(2)
 
-        expect(
-            counter(1,{type: "DECREMENT"}
-        ).toEqual(0)
+    expect(
+        counter(2,{type: "DECREMENT"}
+    ).toEqual(1)
 
-        console.log("Tests passed!")
-    </pre>
+    expect(
+        counter(1,{type: "DECREMENT"}
+    ).toEqual(0)
+
+    console.log("Tests passed!")
+</pre>
 
 <h2>
     <a href=" ">
