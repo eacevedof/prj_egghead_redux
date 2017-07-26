@@ -93,17 +93,26 @@ https://egghead.io/courses/getting-started-with-redux
 
 <hr/>
 <h2>
-    <a href=" ">
-        4. 
+    <a href="https://egghead.io/lessons/javascript-redux-the-reducer-function">
+        4. lessons/javascript-redux-the-reducer-function
     </a>
 </h2>
 <ol>
     <li>
+        Un <b>reducer</b> no es más que una función pura, una acción que gestiona el estado.<br/>
+        Para su gestión debe recuperar el estado actual, actualizarlo y devolver el nuevo estado.<br/>
     </li>
     <li>
-    </li>
-    <li>
+        El estado no se modifica en la función. La función (el Reducer) devuelve un nuevo estado
     </li>  
+    <li>
+        El flujo es:<br/>
+        Estado -> acción -> Nuevo estado
+    </li>
+    <li>
+        Para describir las mutaciones de estado, se debe crear funciones que tomen como parámetros<br/>
+        el estado anterior y la accion que se está ejecutando y debe devolver el nuevo estado.
+    </li>
 </ol>
 
 <hr/>
