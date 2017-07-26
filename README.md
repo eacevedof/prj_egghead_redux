@@ -135,6 +135,7 @@ https://egghead.io/courses/getting-started-with-redux
     </li>
 </ol>
 
+<p>
 ```js
     //Expect: https://unpkg.com/expect/umd/expect.min.js"
 
@@ -162,6 +163,7 @@ https://egghead.io/courses/getting-started-with-redux
 
     console.log("Tests passed!")
 ```
+<p>
 
 <h2>
     <a href=" ">
