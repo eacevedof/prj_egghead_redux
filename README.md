@@ -134,7 +134,7 @@ https://egghead.io/courses/getting-started-with-redux
             <script src="https://unpkg.com/expect/umd/expect.min.js"></script>
         </code>
         <br/>
-        <code>
+        <pre>
             //Reducer
             function counter(oState,oAction){
                 return oState
@@ -157,7 +157,7 @@ https://egghead.io/courses/getting-started-with-redux
             ).toEqual(0)
 
             console.log("Tests passed!")
-        </code>
+        </pre>
 
 <h2>
     <a href=" ">
