@@ -238,6 +238,48 @@ https://egghead.io/courses/getting-started-with-redux
         counter(1,{type: "SOMETHING_ELSE"})
     ).toEqual(1)
 
+    //si no existe el estado. Se define
+    expect(
+        counter(undefined,{})
+    ).toEqual(1)
+    console.log("Tests passed!")
+```
+
+```js
+    //si el estado es undefined
+    const counter = (iState=0,oAction) => {
+        switch(oAction.type){
+            case "":
+                return iState + 1
+            case "":
+                return iState - 1
+            default:
+                return iState
+        }
+    }//fn counter
+
+    expect(
+        //state,action
+        counter(0,{type: "INCREMENT"})
+    ).toEqual(1)
+
+    expect(
+        counter(1,{type: "INCREMENT"})
+    ).toEqual(2)
+
+    expect(
+        counter(2,{type: "DECREMENT"})
+    ).toEqual(1)
+
+    expect(
+        counter(1,{type: "DECREMENT"})
+    ).toEqual(0)
+
+    //accion no contemplada, nos obliga a definir un else if en counter
+    expect(
+        counter(1,{type: "SOMETHING_ELSE"})
+    ).toEqual(1)
+
     expect(
         counter(undefined,{})
     ).toEqual(1)
