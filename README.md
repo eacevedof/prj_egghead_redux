@@ -125,15 +125,11 @@ https://egghead.io/courses/getting-started-with-redux
 <ol>
     <li>
         Libreria de ejemplo: https://github.com/mjackson/expect <br/><br/>
-        <blockquote>
-            <p>
+```js
 
-                ```js
-                    expect(2).toBeA('number')  //Se espera que 2 sea un número
-                ```
+    expect(2).toBeA('number')  //Se espera que 2 sea un número
 
-            </p>
-        </blockquote>
+```
     </li>
     <li>
 
