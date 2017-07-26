@@ -110,15 +110,50 @@ https://egghead.io/courses/getting-started-with-redux
         Estado -> acción -> Nuevo estado
     </li>
     <li>
-        Para describir las mutaciones de estado, se debe crear funciones que tomen como parámetros<br/>
+        Para describir las mutaciones de estado, se deben crear funciones que tomen como parámetros<br/>
         el estado anterior y la accion que se está ejecutando y debe devolver el nuevo estado.
     </li>
 </ol>
 
 <hr/>
 <h2>
+    <a href="https://egghead.io/lessons/javascript-redux-writing-a-counter-reducer-with-tests">
+        5. lessons/javascript-redux-writing-a-counter-reducer-with-tests
+    </a>
+</h2>
+<ol>
+    <li>
+        Libreria de ejemplo: https://github.com/mjackson/expect <br/>
+        <code>
+            expect(2).toBeA('number')  //Se espera que 2 sea un número
+        </code>
+    </li>
+    <li>
+        <pre>
+            
+        </pre>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>  
+</ol>
+<h2>
     <a href=" ">
-        5.
+        6.
+    </a>
+</h2>
+<ol>
+    <li>
+    </li>
+    <li>
+    </li>
+    <li>
+    </li>  
+</ol>
+<h2>
+    <a href=" ">
+        7.
     </a>
 </h2>
 <ol>
