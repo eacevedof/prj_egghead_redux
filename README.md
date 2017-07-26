@@ -130,17 +130,16 @@ https://egghead.io/courses/getting-started-with-redux
         </code>
     </li>
 </ol>
-        <code>
-            <script src="https://unpkg.com/expect/umd/expect.min.js"></script>
-        </code>
-        <br/>
         <pre>
+            <script src="https://unpkg.com/expect/umd/expect.min.js"></script>
+
             //Reducer
             function counter(oState,oAction){
                 return oState
             }
             
             expect(
+                //state,action
                 counter(0,{type: "INCREMENT"}
             ).toEqual(1)
 
