@@ -127,13 +127,16 @@ https://egghead.io/courses/getting-started-with-redux
         Libreria de ejemplo: https://github.com/mjackson/expect <br/><br/>
         <blockquote>
             <p>
+
                 ```js
                     expect(2).toBeA('number')  //Se espera que 2 sea un número
                 ```
+
             </p>
         </blockquote>
     </li>
     <li>
+
         ```js
             //Expect: https://unpkg.com/expect/umd/expect.min.js"
 
@@ -161,6 +164,7 @@ https://egghead.io/courses/getting-started-with-redux
 
             console.log("Tests passed!")
         ```
+
     </li>
 </ol>
 
