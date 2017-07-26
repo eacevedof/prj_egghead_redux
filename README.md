@@ -161,7 +161,7 @@ https://egghead.io/courses/getting-started-with-redux
     ).toEqual(0)
 
     console.log("Tests passed!")
-```js
+```
 
 <h2>
     <a href=" ">
