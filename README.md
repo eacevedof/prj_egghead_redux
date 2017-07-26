@@ -1,4 +1,6 @@
 # prj_egghead_redux
+# https://github.com/eacevedof/prj_egghead_redux
+
 https://egghead.io/courses/getting-started-with-redux
 
 <h1>
